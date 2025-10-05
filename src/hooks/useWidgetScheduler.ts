@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
-import { type WidgetConfig } from '../lib/supabase';
+import { type WidgetConfig } from '../lib/storage';
 
 type ActiveWidget = {
   config: WidgetConfig;
